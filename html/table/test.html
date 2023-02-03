@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head lang="en">
+    <title>
+    </title>
+    <link rel="icon", type="image/x-icon", href="">
+    <style>
+        table,th,td {border: 1px black solid; padding: 10px; border-spacing: 10px;}
+        th,td {align-content: center;}
+        thead{background-color: aqua;}
+        tbody{background-color: rgb(9, 105, 105);}
+    </style>
+    <body>
+        <table style="background-color: bisque;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Semester</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Abdullah
+                    </td>
+                    <td>
+                        4.2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        tanmoy
+                    </td>
+                    <td>
+                        4.2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        hasib
+                    </td>
+                    <td>
+                        4.2
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+           
+
+        </table>
+
+        <form action="" target="_self" metthod="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br>
+            <label for="Select">Select language</label>
+            <input type="radio" id="bangla" name="language" value="">
+            <label for="bangla">bangla</label>
+            <input type="radio" id="english" name="language" value="">
+            <label for="english">english</label>
+            <br>
+            <label for="description">Tell Me About Your Self:</label>
+            <textarea name="description" cols="10" rows="10">
+            </textarea>
+            <br>
+            <label for="programming">Prefarable language:</label>
+            <input list="programming" name="programming">
+            <datalist id="programming">
+                <option value="C++">
+                <option value="python">
+                <option value="java">
+            </datalist><br>
+            <input type="submit" value="Submit">
+        </form> 
+
+        <picture>
+            <source srcset="" media="(max-width: 600px)">
+        </picture>
+        
+    </body>
+</head>

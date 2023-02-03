@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0"> 
+    <title>
+    </title>
+    <link rel="icon", type="image/x-icon", href="">
+    <style>
+        .media {
+            text-align: center;
+        }
+    </style>
+  
+    <body>
+       <div>
+        <button onclick="playPause()">click</button>
+        <video id="video1" width="420">
+            <source src="Fishes - 16166.mp4" type="video/mp4">
+            <source src="Fishes - 16166.ogg" type="video/ogg">
+            Your browser does not support HTML video.
+        </video>
+       </div>
+       <script>
+        var video2=document.getElementById('video1');
+        function playPause(){
+            if(video2.paused)
+                video2.play();
+            else
+                video2.pause();
+            
+        }
+    </script>
+
+    </body>
+</head>
