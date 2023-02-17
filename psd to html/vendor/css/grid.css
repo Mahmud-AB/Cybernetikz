@@ -24,11 +24,16 @@
 
 /*  GRID COLUMN SETUP   ==================================================================== */
 
-/* .col {
+.col {
 	display: block;
 	float:left;
 	margin: 10% 0 10% 10%;
-} */
+}
+.col-1{
+	display: block;
+	float:left;
+	margin: 3% 0 10% 10%;
+}
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 

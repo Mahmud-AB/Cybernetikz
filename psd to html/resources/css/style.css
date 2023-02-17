@@ -16,11 +16,19 @@ body{
     text-rendering: optimizeLegibility;
 }
 
-.col {
-	display: block;
-	float:left;
-	margin: 10% 0% 10% 10%;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0%;
+    visibility: hidden;
 }
+
+section{
+    padding: 8rem 0;
+    
+}
+
 
 
 
@@ -31,6 +39,7 @@ body{
     margin:0 auto;
     
 }
+
 
 /* header */
 header{
@@ -92,10 +101,9 @@ header .head-nav li .contact{
     margin-top: 1.5rem;
     margin-left: 0rem;
     text-align: center;
-    font-size: 1.3rem;
-    position: -webkit-sticky;
-    position: sticky;
+    font-size: 1.3rem;  
 }
+
 
 .main-nav li a:link,
 .main-nav li a:visited
@@ -109,19 +117,19 @@ header .head-nav li .contact{
 }
 
 /* section extension plugin */
+.extension{
+    background-color: rgb(243, 237, 237);
+    text-align: center;
+    height: 75rem;
+}
 .text{
-    font-size: 5rem;
+    font-size: 2rem;
     position: absolute;
-    top: 23%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #4d4c4c;
-}
-
-section{
-    padding: 8rem 0;
-    overflow: hidden;
 }
 .p-e{
     position: relative;
@@ -146,3 +154,54 @@ section{
     font-size: 3rem;
     
 }
+
+/* social Section */
+.social{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.text2{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 113%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #4d4c4c;
+}
+.pera{
+    text-align: center; 
+    width: 500px;
+    font-size: 1.5rem;
+}
+
+.p-e1{
+    position: relative;
+    left: 1rem;
+
+}
+
+.seo{ 
+    position: relative;
+    font-size: 3rem; 
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+button{
+
+    height: 10rem;
+    background: rgb(207, 62, 4);
+    position: relative;
+    left: -25rem;
+    font-size: 3rem; 
+    transition-duration: 0.4s;
+}
+
+button:hover{
+   background-color: #288eec ;
+}
+
+
+
