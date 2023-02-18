@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "63ef0baaadccdc9483494fc2"
+  },
+  "Name": "Abdullah Al Mahmud",
+  "Address": "South Pirerbagh",
+  "Number": "01989849565",
+  "Email": [
+    "connect.almahmud@gmail.com",
+    "19101047@uap-bd.edu"
+  ],
+  "Skill": [
+    {
+      "preSkill": [
+        "Fast Learner",
+        "Flexible"
+      ]
+    },
+    {
+      "proSkill": [
+        "MSOffice",
+        "AdobePhotoshop"
+      ]
+    }
+  ],
+  "Supervisor": "Shajibur Rahman"
+},{
+  "_id": {
+    "$oid": "63ef0baaadccdc9483494fc3"
+  },
+  "Name": "Tanmoy Mojumdar",
+  "Address": "Khilgao",
+  "Number": "01989849555",
+  "Email": [
+    "connect.tanmoy@gmail.com",
+    "19101013@uap-bd.edu"
+  ],
+  "Skill": [
+    {
+      "preSkill": [
+        "Fast Learner",
+        "Flexible"
+      ]
+    },
+    {
+      "proSkill": [
+        "MSOffice",
+        "AdobePhotoshop"
+      ]
+    }
+  ],
+  "Supervisor": "Shajibur Rahman"
+},{
+  "_id": {
+    "$oid": "63ef0baaadccdc9483494fc4"
+  },
+  "Name": "Hasibur Rahman",
+  "Address": "Jigatola",
+  "Number": "01989849535",
+  "Email": [
+    "connect.hasib@gmail.com",
+    "19101009@uap-bd.edu"
+  ],
+  "Skill": [
+    {
+      "preSkill": [
+        "Fast Learner",
+        "Flexible"
+      ]
+    },
+    {
+      "proSkill": [
+        "MSOffice",
+        "AdobePhotoshop"
+      ]
+    }
+  ],
+  "Supervisor": "Shajibur Rahman"
+},{
+  "_id": {
+    "$oid": "63ef0baaadccdc9483494fc5"
+  },
+  "Name": "Arif Uz Zaman",
+  "Address": "Kolabagan",
+  "Number": "01989849525",
+  "Email": [
+    "connect.arif@gmail.com",
+    "19101030@uap-bd.edu"
+  ],
+  "Skill": [
+    {
+      "preSkill": [
+        "Fast Learner",
+        "Flexible"
+      ]
+    },
+    {
+      "proSkill": [
+        "MSOffice",
+        "AdobePhotoshop"
+      ]
+    }
+  ],
+  "Supervisor": "Shajibur Rahman"
+},{
+  "_id": {
+    "$oid": "63ef0baaadccdc9483494fc6"
+  },
+  "Name": "Saiyara Mahmud",
+  "Address": "Mohammadpur",
+  "Number": "01989849515",
+  "Email": [
+    "connect.prachi@gmail.com",
+    "19101044@uap-bd.edu"
+  ],
+  "Skill": [
+    {
+      "preSkill": [
+        "Fast Learner",
+        "Flexible"
+      ]
+    },
+    {
+      "proSkill": [
+        "MSOffice",
+        "AdobePhotoshop"
+      ]
+    }
+  ],
+  "Supervisor": "Shajibur Rahman"
+}]
